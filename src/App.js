@@ -6,6 +6,7 @@ function App() {
   const [snake, setSnake] = useState([0,1,2,3])
   const [cookie, setCookie] = useState(null)
 
+  //initialize game
   useEffect(()=>{
     initializeGame()
   },[])
@@ -27,6 +28,8 @@ function App() {
     }
     setBoard(board)
   }
+
+
 
 
   return (
