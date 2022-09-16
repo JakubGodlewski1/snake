@@ -1,0 +1,28 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-gap: 1px;
+}
+
+.element{
+    width: 30px;
+    height: 30px;
+    background: #2f2885;
+}
+
+.snake {
+    background: #00ec00;
+}
+
+.cookie {
+    background: red;
+}
+
