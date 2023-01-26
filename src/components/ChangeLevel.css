@@ -1,0 +1,15 @@
+.levels {
+    display: flex;
+    gap: 55px;
+    font-size: 30px;
+    margin: 20px;
+    background: #969696;
+    border: 2px solid rgba(47, 40, 133, 0.55);
+    padding: 10px;
+
+}
+
+.levels input {
+    width: 20px;
+    height: 20px;
+}

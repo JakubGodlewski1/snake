@@ -4,22 +4,36 @@
     justify-content: center;
     height: 100vh;
     background: whitesmoke;
+    flex-direction: column;
 }
+
+.App h2 {
+    font-size: 40px;
+    margin-top: -30px;
+}
+
 
 .board {
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-gap: 1px;
+    align-items: center;
+    justify-items: center;
 }
 
 .element{
     width: 30px;
     height: 30px;
     background: #2f2885;
+
 }
 
 .snake {
+
     background: #00ec00;
+    box-sizing: content-box;
+
+
 }
 
 .cookie {
